@@ -14,3 +14,11 @@ end
 
 
 puts name_with_phone_number
+
+#"Assignment 2: Filter your data with select:"
+
+def phone_number_with_plus_one
+    read_contacts.select{|contact| phone == "+1"}
+end
+
+puts phone_number_with_plus_one
